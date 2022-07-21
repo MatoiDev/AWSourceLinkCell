@@ -5,12 +5,19 @@
 Just drag and drop **AWSourceLinkCell.h** & **AWSourceLinkCell.m** to _YourTweakProj/Preferences_
 
 ### Usage
+
+Add two magic strings:
+```
+<key>cellClass</key>
+<string>AWSourceLinkCell</string>
+```
+
 The AWSourceLinkCell offers two options for creating a cell:
 - [<code>**source**</code>](https://github.com/AppIeWorm/AWSourceLinkCell#Source-cell)
 - [<code>**customSource**</code>](https://github.com/AppIeWorm/AWSourceLinkCell#Custom-source-cell)
 
 ## Source cell
-
+The most frequently used resources referenced by jailbreak developers
 
 ##### Example:
 
@@ -36,7 +43,7 @@ The AWSourceLinkCell offers two options for creating a cell:
  
 |  Attribute                  | Necessity             | Value                                      |   Default        |
 |:---------------------------:|:---------------------:|:------------------------------------------:|:-----------------|
-| <kbd>source</kbd>           | **Required**          | Twitter, Telegram, Instagram, GitHub or VK |-|
+| <kbd>source</kbd>           | **Required**          | Twitter, Telegram, Instagram, GitHub, Reddit or VK |-|
 | <kbd>username</kbd>         | **Required**          | Username of your account                   |-|
 | <kbd>height</kbd>           | **Required**          | \<real>60\</real>                 | - |
 | <kbd>image</kbd>            | **Optional**, required for VK          | A link to the image | The image will be taken from your account profile|
@@ -102,8 +109,50 @@ The AWSourceLinkCell offers two options for creating a cell:
  </dict>
   ```
 
-
 ## Custom source cell
+Here you can specify any link you want, even to a screamer if you like
+
+##### Example:
+
+ <img src="githubAssets/customSourceCell.jpg">
+
+```
+<dict>
+    <key>cellClass</key>
+    <string>AWSourceLinkCell</string>
+    <key>customSource</key>
+    <string>Any source</string>
+    <key>headerText</key>
+    <string>Me on my Source</string>
+    <key>link</key>
+    <string>https://mySource.com</string>
+    <key>image</key>
+    <string>https://www.pinclipart.com/picdir/big/421-4213680_cloud-logo-cloud-icon-clipart.png</string>
+    <key>height</key>
+    <real>60</real>
+</dict>
+ ```
+ ##### Attributes:
+ 
+|  Attribute                  | Necessity             | Value                                      |   Default        |
+|:---------------------------:|:---------------------:|:------------------------------------------:|:-----------------|
+| <kbd>customSource</kbd>     | **Required**          | Name of source                         |-|
+| <kbd>headerText</kbd>         | **Required**          | Any string                   |-|
+| <kbd>link</kbd>     | **Required**          | Any link you want                          |-|
+| <kbd>image</kbd>            | **Required**         | A link to the image | — |
+| <kbd>height</kbd>           | **Required**          | \<real>60\</real>                 | - |
+| <kbd>square</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | Circle avatar |
+| <kbd>contour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | No contour |
+| <kbd>rightImage</kbd> | **Optional** | [UIImage systemImageNamed:] | No image |
+| <kbd>footerText</kbd> | **Optional** | Any string | Source |
+| <kbd>tintColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
+| <kbd>footerTextColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
+| <kbd>rightImageColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
+| <kbd>contourColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
+| <kbd>tintedFooterText</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
+| <kbd>tintedRightImage</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
+| <kbd>tintedContour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
 
 
-
+# Conclusion
+I hope my work will save someone time. **If you will use this class in your project, please leave a link to my github in credits**.
