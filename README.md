@@ -139,7 +139,7 @@ Here you can specify any link you want, even to a screamer if you like
 | <kbd>customSource</kbd>     | **Required**          | Name of source                         |-|
 | <kbd>headerText</kbd>         | **Required**          | Any string                   |-|
 | <kbd>link</kbd>     | **Required**          | Any link you want                          |-|
-| <kbd>image</kbd>            | **Required**         | A link to the image | — |
+| <kbd>image</kbd>            | **Required**         | A link to the image | - |
 | <kbd>height</kbd>           | **Required**          | \<real>60\</real>                 | - |
 | <kbd>square</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | Circle avatar |
 | <kbd>contour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | No contour |
