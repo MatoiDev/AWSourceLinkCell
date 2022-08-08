@@ -23,7 +23,7 @@ The most frequently used resources referenced by jailbreak developers
 
  <img src="githubAssets/sourceCell.jpg">
 
-```
+```xml
 <dict>
     <key>cellClass</key>
     <string>AWSourceLinkCell</string>
@@ -64,7 +64,7 @@ The most frequently used resources referenced by jailbreak developers
 ##### Circled and Squared avatars with tinted contours and right images:
  <img src="githubAssets/tintedGuys.jpg">
  
-  ```
+  ```xml
   <dict>
       <key>cellClass</key>
       <string>AWSourceLinkCell</string>
@@ -116,7 +116,7 @@ Here you can specify any link you want, even to a screamer if you like
 
  <img src="githubAssets/customSourceCell.jpg">
 
-```
+```xml
 <dict>
     <key>cellClass</key>
     <string>AWSourceLinkCell</string>
