@@ -2,7 +2,7 @@
 >This class I wrote because I really f\***ed up to import some kind of f\***ing libraries every time.
 
 ### Including AWSourceLinkCell
-Just drag and drop **AWSourceLinkCell.h** & **AWSourceLinkCell.m** to _YourTweakProj/Preferences_
+Just drag and drop **AWSourceLinkCell.h** & **AWSourceLinkCell.mm** to _YourTweakProj/Preferences_
 
 ### Usage
 
