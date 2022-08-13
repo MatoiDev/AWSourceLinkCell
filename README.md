@@ -3,6 +3,8 @@
 
 ### Including AWSourceLinkCell
 Just drag and drop **AWSourceLinkCell.h** & **AWSourceLinkCell.mm** to _YourTweakProj/Preferences_
+### Known issue:
+##### If your project was assembled with empty cells, then refactor <code>.mm</code> to <code>.m</code> extension
 
 ### Usage
 
