@@ -5,6 +5,7 @@
 Just drag and drop **AWSourceLinkCell.h** & **AWSourceLinkCell.mm** to _YourTweakProj/Preferences_
 ### Known issue:
 ##### If your project was assembled with empty cells, then refactor <code>.mm</code> to <code>.m</code> extension
+>P.S — It depends on the compiler, I do not know why this happens, but most often everything works with <code>.mm</code>, so I left the file with this extension.
 
 ### Usage
 
