@@ -2,7 +2,7 @@
 //
 //  AWSourceLinkCell.mm
 //
-//           by AppleWorm
+//           by AppleWorm (Erast)
 //
 
 
