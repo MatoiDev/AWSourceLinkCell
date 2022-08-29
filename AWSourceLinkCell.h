@@ -2,7 +2,7 @@
 //
 //  AWSourceLinkCell.h
 //
-//           by AppleWorm (Erast)
+//           by Erast
 //
 
 #import <Preferences/PSSpecifier.h>

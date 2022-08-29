@@ -44,24 +44,24 @@ The most frequently used resources referenced by jailbreak developers
  ```
  ##### Attributes:
  
-|  Attribute                  | Necessity             | Value                                      |   Default        |
-|:---------------------------:|:---------------------:|:------------------------------------------:|:-----------------|
+|  Attribute                  | Necessity             |                       Value                        |   Default        |
+|:---------------------------:|:---------------------:|:--------------------------------------------------:|:-----------------|
 | <kbd>source</kbd>           | **Required**          | Twitter, Telegram, Instagram, GitHub, Reddit or VK |-|
-| <kbd>username</kbd>         | **Required**          | Username of your account                   |-|
-| <kbd>height</kbd>           | **Required**          | \<real>60\</real>                 | - |
-| <kbd>image</kbd>            | **Optional**, required for VK          | A link to the image | The image will be taken from your account profile|
-| <kbd>square</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | Circle avatar |
-| <kbd>contour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | No contour |
-| <kbd>rightImage</kbd> | **Optional** | [UIImage systemImageNamed:] | No image |
-| <kbd>headerText</kbd> | **Optional** | Any string | Username |
-| <kbd>footerText</kbd> | **Optional** | Any string | Source |
-| <kbd>tintColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
-| <kbd>footerTextColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
-| <kbd>rightImageColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
-| <kbd>contourColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
-| <kbd>tintedFooterText</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
-| <kbd>tintedRightImage</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
-| <kbd>tintedContour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | false |
+| <kbd>username</kbd>         | **Required**          |              Username of your account              |-|
+| <kbd>height</kbd>           | **Required**          |                 \<real>60\</real>                  | - |
+| <kbd>image</kbd>            | **Optional**, required for VK          |                A link to the image                 | The image will be taken from your account profile|
+| <kbd>square</kbd> | **Optional** |  <code>\<true/></code> or <code>\<false/></code>   | Circle avatar |
+| <kbd>contour</kbd> | **Optional** |  <code>\<true/></code> or <code>\<false/></code>   | No contour |
+| <kbd>rightImage</kbd> | **Optional** |     **_systemImageNamed_**, **_url_** or image **_filepath_**   | No image |
+| <kbd>headerText</kbd> | **Optional** |                     Any string                     | Username |
+| <kbd>footerText</kbd> | **Optional** |                     Any string                     | Source |
+| <kbd>tintColor</kbd> | **Optional** |                <code>#RRGGBB</code>                | [UIColor labelColor] |
+| <kbd>footerTextColor</kbd> | **Optional** |                <code>#RRGGBB</code>                | [UIColor labelColor] |
+| <kbd>rightImageColor</kbd> | **Optional** |                <code>#RRGGBB</code>                | [UIColor labelColor] |
+| <kbd>contourColor</kbd> | **Optional** |                <code>#RRGGBB</code>                | [UIColor labelColor] |
+| <kbd>tintedFooterText</kbd> | **Optional** |  <code>\<true/></code> or <code>\<false/></code>   | false |
+| <kbd>tintedRightImage</kbd> | **Optional** |  <code>\<true/></code> or <code>\<false/></code>   | false |
+| <kbd>tintedContour</kbd> | **Optional** |  <code>\<true/></code> or <code>\<false/></code>   | false |
 
  
 ##### Circled and Squared avatars with tinted contours and right images:
@@ -146,7 +146,7 @@ Here you can specify any link you want, even to a screamer if you like
 | <kbd>height</kbd>           | **Required**          | \<real>60\</real>                 | - |
 | <kbd>square</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | Circle avatar |
 | <kbd>contour</kbd> | **Optional** | <code>\<true/></code> or <code>\<false/></code> | No contour |
-| <kbd>rightImage</kbd> | **Optional** | [UIImage systemImageNamed:] | No image |
+| <kbd>rightImage</kbd> | **Optional** | **_systemImageNamed_**, **_url_** or image **_filepath_** | No image |
 | <kbd>footerText</kbd> | **Optional** | Any string | Source |
 | <kbd>tintColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |
 | <kbd>footerTextColor</kbd> | **Optional** | <code>#RRGGBB</code> | [UIColor labelColor] |

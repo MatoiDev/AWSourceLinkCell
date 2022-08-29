@@ -2,7 +2,7 @@
 //
 //  AWSourceLinkCell.mm
 //
-//           by AppleWorm (Erast)
+//           by Erast
 //
 
 
@@ -81,7 +81,13 @@
 
     if ([self srcImage]) {
 
-        self.sourceImage = [UIImage systemImageNamed: [self srcImage]];
+        if ([[[self srcSource] substringToIndex:1] isEqualToString:@"/"]) {
+            self.sourceImage = [UIImage initWithContentsOfFile: [self srcImage]];
+        } else if ([[[srcSource componentsSeparatedByString:@"//"] objectAtIndex:0] isEqualToString:@"https:"]) {
+            self.sourceImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString: [self srcImage]]]];
+        } else {
+            self.sourceImage = [UIImage systemImageNamed: [self srcImage]];
+        }
 
     } else {
 
